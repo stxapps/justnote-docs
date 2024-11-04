@@ -50,7 +50,7 @@ export function MobileNavigation() {
   return (
     <>
       <button className="group flex size-14 items-center justify-center focus:outline-none sm:w-[4.5rem]" type="button" onClick={open} aria-label="Open navigation">
-        <MenuIcon className="size-6 rounded stroke-gray-500 group-hover:stroke-gray-600 group-focus-visible:ring group-focus-visible:ring-offset-2 dark:group-hover:stroke-gray-400 dark:group-focus-visible:ring-offset-gray-900" />
+        <MenuIcon className="size-6 rounded stroke-gray-500 group-hover:stroke-gray-600 group-focus-visible:ring-2 group-focus-visible:ring-gray-400 group-focus-visible:ring-offset-2 dark:group-hover:stroke-gray-400 dark:group-focus-visible:ring-gray-500 dark:group-focus-visible:ring-offset-gray-900" />
       </button>
       <Suspense fallback={null}>
         <CloseOnNavigation close={close} />
@@ -59,7 +59,7 @@ export function MobileNavigation() {
         <DialogPanel className="min-h-full w-full max-w-xs bg-white px-4 pb-12 pt-[calc(3.5rem+theme(spacing.16))] sm:px-6 dark:bg-gray-900">
           <Navigation onLinkClick={onLinkClick} />
           <button className="group absolute left-0 top-0 flex size-14 items-center justify-center focus:outline-none sm:w-[4.5rem]" type="button" onClick={close} aria-label="Close navigation">
-            <CloseIcon className="size-6 rounded stroke-gray-500 group-focus-visible:ring group-focus-visible:ring-offset-2 dark:group-focus-visible:ring-offset-gray-900" />
+            <CloseIcon className="size-6 rounded stroke-gray-500 group-focus-visible:ring-2 group-focus-visible:ring-gray-400 group-focus-visible:ring-offset-2 dark:group-focus-visible:ring-gray-500 dark:group-focus-visible:ring-offset-gray-900" />
           </button>
         </DialogPanel>
       </Dialog>

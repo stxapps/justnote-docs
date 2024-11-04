@@ -10,7 +10,7 @@ export function ProseContent(props) {
         className,
         'prose max-w-none text-gray-500 dark:prose-invert dark:text-gray-400',
         'prose-headings:scroll-mt-28',
-        'focus:prose-a:outline-none focus-visible:prose-a:rounded focus-visible:prose-a:ring',
+        'focus:prose-a:outline-none focus-visible:prose-a:rounded focus-visible:prose-a:ring-2 focus-visible:prose-a:ring-gray-400 dark:focus-visible:prose-a:ring-gray-500',
       )}
       {...restProps} />
   );

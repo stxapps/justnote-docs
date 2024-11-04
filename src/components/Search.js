@@ -88,7 +88,7 @@ function useAutocomplete({ close }) {
 
 function HighlightQuery({ text, query }) {
   return (
-    <Highlighter highlightClassName="underline bg-transparent text-gray-900 dark:text-white" searchWords={[query]} autoEscape={true} textToHighlight={text} />
+    <Highlighter highlightClassName="underline bg-transparent text-green-600" searchWords={[query]} autoEscape={true} textToHighlight={text} />
   );
 }
 
@@ -101,7 +101,7 @@ function SearchResult({ result, query, itemProps }) {
 
   return (
     <li
-      className="group block cursor-default rounded-lg px-3 py-2 aria-selected:bg-gray-100 dark:aria-selected:bg-gray-700"
+      className="group block cursor-default rounded-md px-3 py-2 aria-selected:bg-gray-100 dark:aria-selected:bg-gray-700"
       aria-labelledby={`${id}-hierarchy ${id}-title`}
       {...itemProps}
     >
@@ -246,7 +246,7 @@ function SearchDialog(props) {
         <div className="fixed inset-0 overflow-y-auto px-4 py-20 sm:px-6 md:py-32 lg:px-8 lg:py-[15vh]">
           <DialogPanel className={clsx(
             'mx-auto transform-gpu overflow-hidden bg-white shadow-xl ring-1 ring-black/5 sm:max-w-xl dark:bg-gray-800 dark:ring-white/25',
-            autocompleteState.isOpen ? 'rounded-3xl' : 'rounded-full',
+            autocompleteState.isOpen ? 'rounded-md' : 'rounded-md',
           )}>
             <div {...autocomplete.getRootProps({})}>
               {/** @ts-expect-error */}
@@ -305,8 +305,8 @@ export function Search() {
 
   return (
     <>
-      <button type="button" className="group flex size-14 items-center justify-center focus:outline-none md:h-auto md:w-60 md:flex-none md:justify-start md:rounded-full md:border md:border-gray-300 md:py-1.5 md:pl-4 md:pr-3.5 md:text-sm md:hover:border-gray-400 md:focus-visible:ring lg:w-72 dark:md:border-gray-600 dark:md:hover:border-gray-500" {...buttonProps}>
-        <SearchIcon className="size-6 flex-none rounded fill-gray-400 group-hover:fill-gray-500 group-focus-visible:ring group-focus-visible:ring-offset-2 group-focus-visible:ring-offset-white md:size-[18px] md:group-hover:fill-gray-400 md:group-focus-visible:ring-0 md:group-focus-visible:ring-offset-0 dark:fill-gray-500 dark:group-hover:fill-gray-400 dark:group-focus-visible:ring-offset-gray-900 md:dark:group-hover:fill-gray-500" />
+      <button type="button" className="group flex h-14 w-12 items-center justify-center focus:outline-none md:h-auto md:w-60 md:flex-none md:justify-start md:rounded-md md:border md:border-gray-300 md:py-1.5 md:pl-4 md:pr-3.5 md:text-sm md:hover:border-gray-400 md:focus-visible:ring-2 md:focus-visible:ring-gray-400 lg:w-72 dark:md:border-gray-600 dark:md:hover:border-gray-500 dark:md:focus-visible:ring-gray-500" {...buttonProps}>
+        <SearchIcon className="size-6 flex-none rounded fill-gray-400 group-hover:fill-gray-500 group-focus-visible:ring-2 group-focus-visible:ring-gray-400 group-focus-visible:ring-offset-2 group-focus-visible:ring-offset-white md:size-[18px] md:group-hover:fill-gray-400 md:group-focus-visible:ring-0 md:group-focus-visible:ring-offset-0 dark:fill-gray-500 dark:group-hover:fill-gray-400 dark:group-focus-visible:ring-gray-500 dark:group-focus-visible:ring-offset-gray-900 md:dark:group-hover:fill-gray-500" />
         <span className="sr-only md:not-sr-only md:ml-2 md:text-gray-500 md:dark:text-gray-400">Search docs</span>
         {modifierKey && (
           <kbd className="ml-auto hidden text-gray-500 md:block dark:text-gray-400">

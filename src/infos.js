@@ -15,6 +15,7 @@ const cnmi = (slug, name, grp, path = '') => {
 const _navMenuInfos = [
   cnmi('account', 'Account', GRP_FS),
   cnmi('encryption', 'Encryption', GRP_FS),
+  cnmi('note-taking-app-101', 'Note-Taking App', GRP_101),
   cnmi('faqs', 'FAQs', GRP_MISC),
 ];
 for (const info of _navMenuInfos) {

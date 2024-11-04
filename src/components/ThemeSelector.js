@@ -50,19 +50,19 @@ export function ThemeSelector(props) {
   return (
     <Listbox as="div" value={theme} onChange={setTheme} {...props}>
       <Label className="sr-only">Theme</Label>
-      <ListboxButton className="group flex size-14 items-center justify-center focus:outline-none" aria-label="Theme">
-        <div className="group flex size-8 items-center justify-center rounded-full border border-gray-400 group-hover:border-gray-500 group-focus-visible:ring dark:border-gray-500 dark:group-hover:border-gray-400">
+      <ListboxButton className="group flex h-14 w-12 items-center justify-center focus:outline-none md:w-14" aria-label="Theme">
+        <div className="group flex size-8 items-center justify-center rounded-md border border-gray-400 group-hover:border-gray-500 group-focus-visible:ring-2 group-focus-visible:ring-gray-400 dark:border-gray-500 dark:group-hover:border-gray-400 dark:group-focus-visible:ring-gray-500">
           <LightIcon className="size-3.5 fill-gray-500 group-hover:fill-gray-600 dark:hidden" />
           <DarkIcon className="hidden size-4 fill-gray-400 group-hover:fill-gray-300 dark:block" />
         </div>
       </ListboxButton>
-      <ListboxOptions className="absolute left-1/2 top-full mt-3 w-36 -translate-x-1/2 space-y-1 rounded-xl bg-white p-3 text-sm font-medium shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-gray-800 dark:ring-white/5">
+      <ListboxOptions className="absolute left-1/2 top-full w-36 -translate-x-1/2 space-y-1 rounded-md bg-white p-3 text-sm font-medium shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-gray-800 dark:ring-white/5">
         {themes.map((theme) => (
           <ListboxOption
             key={theme.value}
             value={theme.value}
             className={({ focus }) => clsx(
-              'flex cursor-pointer select-none items-center rounded-[0.625rem] p-1',
+              'flex cursor-pointer select-none items-center rounded-md p-1',
               {
                 'bg-gray-100 text-gray-900 dark:bg-gray-900/40 dark:text-white': focus,
                 'text-gray-700 dark:text-gray-400': !focus,
@@ -71,7 +71,7 @@ export function ThemeSelector(props) {
           >
             {() => (
               <>
-                <div className="flex size-6 items-center justify-center rounded-full bg-white p-1 shadow ring-1 ring-gray-900/5 dark:bg-gray-700 dark:ring-inset dark:ring-white/5">
+                <div className="flex size-6 items-center justify-center rounded bg-white p-1 shadow ring-1 ring-gray-900/5 dark:bg-gray-700 dark:ring-inset dark:ring-white/5">
                   <theme.icon className={clsx('fill-gray-400', theme.iconSize)} />
                 </div>
                 <div className="ml-3">{theme.name}</div>

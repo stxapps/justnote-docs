@@ -22,7 +22,7 @@ function PrevNextLink({ name, path, dir = 'next', ...props }) {
       </dt>
       <dd className="mt-1">
         <Link href={path} className={clsx(
-          'group flex items-center gap-x-1 focus:outline-none focus-visible:rounded focus-visible:ring',
+          'group flex items-center gap-x-1 focus:outline-none focus-visible:rounded focus-visible:ring-2 focus-visible:ring-gray-400 dark:focus-visible:ring-gray-500',
           dir === 'previous' && 'flex-row-reverse',
         )}>
           <span className="text-base text-gray-500 group-hover:text-gray-600 dark:text-gray-400 dark:group-hover:text-gray-300">{name}</span>

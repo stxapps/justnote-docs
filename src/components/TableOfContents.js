@@ -80,7 +80,7 @@ export function TableOfContents({ sections }) {
                   <Link
                     href={`#${section.id}`}
                     className={clsx(
-                      'block focus:outline-none focus-visible:rounded focus-visible:ring',
+                      'block focus:outline-none focus-visible:rounded focus-visible:ring-2 focus-visible:ring-gray-400 dark:focus-visible:ring-gray-500',
                       isActive(currentSection, section)
                         ? 'text-gray-700 dark:text-gray-200'
                         : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200',
@@ -96,7 +96,7 @@ export function TableOfContents({ sections }) {
                         <Link
                           href={`#${subSection.id}`}
                           className={clsx(
-                            'block focus:outline-none focus-visible:rounded focus-visible:ring',
+                            'block focus:outline-none focus-visible:rounded focus-visible:ring-2 focus-visible:ring-gray-400 dark:focus-visible:ring-gray-500',
                             isActive(currentSection, subSection)
                               ? 'text-gray-700 dark:text-gray-200'
                               : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200',

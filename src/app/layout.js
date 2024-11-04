@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 
-import "./globals.css";
+import './globals.css';
 import { Providers } from './providers';
 
 import { TopBar } from '@/components/TopBar';

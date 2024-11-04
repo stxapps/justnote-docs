@@ -27,7 +27,7 @@ function GitHubIcon(props) {
 
 function SocialLink({ href, icon: Icon, iconSize, children }) {
   return (
-    <Link className="group flex size-10 items-center justify-center rounded focus:outline-none focus-visible:ring" href={href} target="_blank" rel="noreferrer">
+    <Link className="group flex size-10 items-center justify-center rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gray-400 dark:focus-visible:ring-gray-500" href={href} target="_blank" rel="noreferrer">
       <span className="sr-only">{children}</span>
       <Icon className={clsx('fill-gray-400 transition group-hover:fill-gray-500 dark:fill-gray-500 dark:group-hover:fill-gray-400', iconSize)} />
     </Link>
@@ -38,12 +38,12 @@ export function Footer() {
   return (
     <footer className="mt-14 flex flex-col items-center justify-between gap-5 border-t border-gray-200 pt-10 sm:flex-row dark:border-gray-700">
       <p className="text-sm text-gray-400 dark:text-gray-500">
-        &copy;{new Date().getFullYear()} <Link className="rounded-sm hover:text-gray-500 focus:outline-none focus-visible:ring dark:hover:text-gray-400" href="https://www.stxapps.com" target="_blank" rel="noreferrer">STX Apps Co., Ltd.</Link>
+        &copy;{new Date().getFullYear()} <Link className="rounded-sm hover:text-gray-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 dark:hover:text-gray-400 dark:focus-visible:ring-gray-500" href="https://www.stxapps.com" target="_blank" rel="noreferrer">STX Apps Co., Ltd.</Link>
       </p>
       <div className="-mr-2 flex">
-        <SocialLink href="https://x.com/bracedotto" icon={TwitterIcon} iconSize="size-[1.8125rem]">Follow us on X (Twitter)</SocialLink>
-        <SocialLink href="https://www.threads.net/@brace.to" icon={ThreadsIcon} iconSize="size-6">Follow us on Threads</SocialLink>
-        <SocialLink href="https://github.com/stxapps/brace-client" icon={GitHubIcon} iconSize="size-7">Follow us on GitHub</SocialLink>
+        <SocialLink href="https://x.com/justnotecc" icon={TwitterIcon} iconSize="size-[1.8125rem]">Follow us on X (Twitter)</SocialLink>
+        <SocialLink href="https://www.threads.net/@justnote.cc" icon={ThreadsIcon} iconSize="size-6">Follow us on Threads</SocialLink>
+        <SocialLink href="https://github.com/stxapps/justnote-client" icon={GitHubIcon} iconSize="size-7">Follow us on GitHub</SocialLink>
       </div>
     </footer>
   );
