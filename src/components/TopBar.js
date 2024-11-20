@@ -6,11 +6,10 @@ import Image from 'next-image-export-optimizer';
 import { MobileNavigation } from '@/components/MobileNavigation';
 import { Search } from '@/components/Search';
 import { ThemeSelector } from '@/components/ThemeSelector';
-
-import LogoFull from '../images/logo-full.svg';
-import LogoFullDark from '../images/logo-full-dark.svg';
-import LogoShort from '../images/logo-short.svg';
-import LogoShortDark from '../images/logo-short-dark.svg';
+import LogoFull from '@/images/logo-full.svg';
+import LogoFullDark from '@/images/logo-full-dark.svg';
+import LogoShort from '@/images/logo-short.svg';
+import LogoShortDark from '@/images/logo-short-dark.svg';
 
 export function TopBar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +27,7 @@ export function TopBar() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 flex h-14 flex-none flex-wrap items-center justify-between bg-white dark:bg-gray-900">
+    <div className="sticky top-0 z-50 flex h-14 flex-none flex-wrap items-center justify-between bg-white dark:bg-gray-900">
       <div className="flex lg:hidden">
         <MobileNavigation />
       </div>
@@ -61,6 +60,6 @@ export function TopBar() {
           <div className="absolute bottom-0 right-0 h-px w-16 bg-gradient-to-r from-gray-200 dark:from-gray-700" />
         </>
       )}
-    </header>
+    </div>
   );
 }

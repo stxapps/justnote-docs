@@ -6,5 +6,4 @@ aws s3 sync out/nextImageExportOptimizer s3://justnote-docs/nextImageExportOptim
 
 aws s3 sync out s3://justnote-docs --exclude "_next/*" --exclude "nextImageExportOptimizer/*" --size-only --delete --cache-control max-age=86400 --profile justnote
 
-aws cloudfront create-invalidation --distribution-id E3HANMO243DZ3Y --paths /index.html /index.txt --profile justnote
-#aws cloudfront create-invalidation --distribution-id E3HANMO243DZ3Y --paths "/*" --profile justnote
+aws cloudfront create-invalidation --distribution-id E3HANMO243DZ3Y --paths "/*" --profile justnote

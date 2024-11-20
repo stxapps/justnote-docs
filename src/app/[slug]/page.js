@@ -1,9 +1,6 @@
-import { navMenuInfos } from '@/infos';
-import { importMdxFile } from '@/utils';
+import { DOMAIN_NAME, navMenuInfos, twInfo, ogInfo } from '@/infos';
+import { importMdxFile, isObject, isString, deriveMetaTitle } from '@/utils';
 import { Main } from '@/components/Main';
-
-import { DOMAIN_NAME, twInfo, ogInfo } from '@/infos';
-import { isObject, isString, deriveMetaTitle } from '@/utils';
 
 export async function generateMetadata({ params }) {
   const { slug } = params;

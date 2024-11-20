@@ -129,6 +129,83 @@ export const searchData = [
     ],
   },
   {
+    'path': '/take-a-note',
+    'title': 'Take a Note',
+    'sections': [
+      [
+        '',
+        '',
+        [
+          'You can easily jot down notes on our website or app, and you can also share text from other apps right into ours.',
+        ],
+      ],
+      [
+        'At Justnote',
+        'at-justnote',
+        [
+          "Click the '+' button on our website or app.",
+        ],
+      ],
+      [
+        'Share to our App',
+        'share-to-our-app',
+        [
+          'Install our app from the Google Play or App Store on your device and share any text with it.',
+        ],
+      ],
+    ],
+  },
+  {
+    'path': '/organize-notes',
+    'title': 'Organize Notes',
+    'sections': [
+      [
+        '',
+        '',
+        [
+          'Organize your notes by moving them to Archive, Trash, or any list (folder) you create. In Settings -> Lists, you can create and organize lists (folders), such as arranging or moving into another list as needed.',
+        ],
+      ],
+      [
+        'Move Notes',
+        'move-notes',
+        [
+          'There are two ways to move notes:',
+          "You can move a note by clicking the note three-dot menu and choosing 'Archive', 'Remove', or 'Move to'.",
+          "To move multiple notes simultaneously, click the 'Select notes' button in the top bar first. Select as many notes as you want. Then, choose 'Archive', 'Remove', or 'Move to' in the top bar or right panel.",
+        ],
+      ],
+      [
+        'Create a New List',
+        'create-a-new-list',
+        [
+          'Please go to Settings -> Lists to create a new list. Type a name in the text box and choose the OK (check) button. Your new list will be appended to the bottom of the others.',
+        ],
+      ],
+      [
+        'Organize Lists',
+        'organize-lists',
+        [
+          'Also, in Settings -> Lists, you can:',
+          'Edit a list name by clicking on the name.',
+          "Arrange a list name with the 'up' or 'down' button.",
+          "Move into another list with the 'Move to' button.",
+          "Delete a list name with the 'Delete' button.",
+          "Some buttons might be in the three-dot menu. Default lists — 'My Notes', 'Trash', and 'Archive' — can not be deleted. 'My Notes' is the default list when you share text with the mobile app. Trash is for removed notes only, and you can permanently delete them here.",
+        ],
+      ],
+      [
+        'Delete Notes',
+        'delete-notes',
+        [
+          'Removed notes in Trash will be automatically permanently deleted after 45 days. You can permanently delete any note in Trash immediately by:',
+          "Click the 'Permanently delete' button under the note three-dot menu.",
+          "To permanently delete multiple removed notes, click the 'Select notes' button in the top bar first. Select as many removed notes as you want. Then, choose the 'Permanently delete' button in the top bar or right panel.",
+        ],
+      ],
+    ],
+  },
+  {
     'path': '/note-taking-app-101',
     'title': 'Note-taking App',
     'sections': [

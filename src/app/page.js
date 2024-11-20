@@ -1,8 +1,6 @@
-import { importMdxFile } from '@/utils';
-import { Main } from '@/components/Main';
-
 import { twInfo, ogInfo } from '@/infos';
-import { isObject, isString, deriveMetaTitle } from '@/utils';
+import { importMdxFile, isObject, isString, deriveMetaTitle } from '@/utils';
+import { Main } from '@/components/Main';
 
 export async function generateMetadata() {
   const { metadata } = await importMdxFile('index');
