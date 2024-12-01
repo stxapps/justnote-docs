@@ -189,7 +189,7 @@ export const searchData = [
           'Also, in Settings -> Lists, you can:',
           'Edit a list name by clicking on the name.',
           "Arrange a list name with the 'up' or 'down' button.",
-          "Move into another list with the 'Move to' button.",
+          "Move into another list with the 'Move to' button (creating nest lists or subfolders).",
           "Delete a list name with the 'Delete' button.",
           "Some buttons might be in the three-dot menu. Default lists — 'My Notes', 'Trash', and 'Archive' — can not be deleted. 'My Notes' is the default list when you share text with the mobile app. Trash is for removed notes only, and you can permanently delete them here.",
         ],
