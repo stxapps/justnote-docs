@@ -225,6 +225,40 @@ export const searchData = [
           "To permanently delete multiple removed notes, click the 'Select notes' button in the top bar first. Select as many removed notes as you want. Then, choose the 'Permanently delete' button in the top bar or right panel.",
         ],
       ],
+      [
+        'Delete All Data',
+        'delete-all-data',
+        [
+          'Please go to Settings -> Data -> Delete All Data to delete all your data, including but not limited to all your saved notes in all lists, all your created lists, and all your settings. This will only remove all your data, not your account. You will still be able to sign in.',
+        ],
+      ],
+    ],
+  },
+  {
+    'path': '/import-export',
+    'title': 'Import & Export',
+    'sections': [
+      [
+        '',
+        '',
+        [
+          'You can import data from a zip file and export all your data from the server to your device as a zip file.',
+        ],
+      ],
+      [
+        'Import Data',
+        'import-data',
+        [
+          'Import data from a zip file. The zip file can be exported from note-taking apps like Google Keep and Evernote (as multiple web pages (.html) and manually zip the folder), as well as from our website/app. Please go to Settings -> Data -> Import Data and choose a zip file.',
+        ],
+      ],
+      [
+        'Export All Data',
+        'export-all-data',
+        [
+          'Export all your data from the server to your device in a zip file. Please go to Settings -> Data -> Export All Data and choose the Export All My Data button.',
+        ],
+      ],
     ],
   },
   {

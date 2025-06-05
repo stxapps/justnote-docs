@@ -18,6 +18,7 @@ const _navMenuInfos = [
   cnmi('data-server', 'Data Server', GRP_FS),
   cnmi('take-a-note', 'Take a Note', GRP_FS),
   cnmi('organize-notes', 'Organize Notes', GRP_FS),
+  cnmi('import-export', 'Import & Export', GRP_FS),
   cnmi('note-taking-app-101', 'Note-Taking App', GRP_101),
   cnmi('faqs', 'FAQs', GRP_MISC),
 ];
