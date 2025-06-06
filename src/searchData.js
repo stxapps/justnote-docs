@@ -283,7 +283,7 @@ export const searchData = [
   },
   {
     'path': '/note-taking-app-101',
-    'title': 'Note-taking App',
+    'title': 'Note-Taking App',
     'sections': [
       [
         '',
@@ -348,6 +348,74 @@ export const searchData = [
           'Most note-taking apps offer automatic backup features, allowing you to schedule regular backups to a local drive, cloud storage, or both. Local backups provide an extra layer of protection against online threats, while cloud backups offer remote access and redundancy.',
           'Sync options are equally crucial, keeping your notes up-to-date across multiple devices and ensuring a seamless experience. Many note-taking apps sync data in real time, instantly reflecting changes made on one device across all connected platforms. This feature is precious for those who access their notes from various devices, such as desktop computers, laptops, tablets, and smartphones.',
           'When evaluating note-taking apps, consider their backup and sync capabilities closely. Look for options that allow you to customize backup schedules, storage locations, and sync intervals. Additionally, consider apps that offer end-to-end encryption for backups and sync data, ensuring your notes remain secure even if the backup or sync servers are compromised.',
+        ],
+      ],
+    ],
+  },
+  {
+    'path': '/text-editor-categories-101',
+    'title': 'Text Editor Categories',
+    'sections': [
+      [
+        '',
+        '',
+        [
+          'In the digital age, tools for writing, organizing, and managing information are essential for personal and professional productivity. Three popular categories of such tools are word processors (e.g., Microsoft Word), block-based editors (e.g., Notion), and note-taking apps (e.g., Justnote). While these tools share some similarities, they serve distinct purposes and cater to different user needs.',
+        ],
+      ],
+      [
+        'Overview',
+        'overview',
+        [
+          'A word processor is used to create, edit, and format documents. Microsoft Word is a well-known example in this category. It is commonly used for professional documents such as reports, letters, and resumes.',
+          'A block-based editor organizes content into individual blocks. Each block can be a text editor, a table that pulls data from a database, or media content such as videos. Notion is a well-known example of this type of editor. It is particularly suited for users seeking a customizable workspace for notes, tasks, and wikis.',
+          'A note-taking app is designed to capture, organize, and sync notes across devices. Justnote is an example in this category, excelling at collecting ideas, organizing them using lists and tags, and ensuring seamless synchronization across devices for both personal and professional purposes.',
+        ],
+      ],
+      [
+        'Similarities',
+        'similarities',
+        [
+          'Despite their differences, word processors, block-based editors, and note-taking apps share some common ground:',
+          'Text Editing: All three categories enable users to create and edit text, supporting basic formatting options such as bold, italics, and bullet points.',
+          'Cross-Platform Availability: Each tool is accessible on multiple platforms, including iOS, Android, and web browsers.',
+          'Cloud Syncing: They offer cloud-based storage, ensuring documents or notes are accessible across devices.',
+          'Productivity Focus: They aim to streamline workflows, whether for document creation, project management, or note organization.',
+        ],
+      ],
+      [
+        'Differences',
+        'differences',
+        [
+          'The tools differ in their functionalities to address different use cases.',
+          'Purpose and Workflow',
+          "A word processor focuses on linear document creation with a strong emphasis on formatting and printing. It's best suited for structured, formal documents, such as contracts or academic papers.",
+          "A block-based editor emphasizes modularity and flexibility, using a block-based system where text, images, tables, and databases can be rearranged in a single workspace. It's suited for dynamic projects, such as team wikis or personal knowledge bases.",
+          "A Note-taking app is designed for quick note-taking and information capture. It's ideal for collecting and organizing ideas on the go.",
+          'User Interface',
+          'A word processor features a traditional, toolbar-heavy interface with robust formatting options. It can feel complex for casual users but is intuitive for document-focused tasks.',
+          'A block-based editor offers a clean, minimalist interface with drag-and-drop blocks. Its flexibility can be overwhelming for new users due to its extensive customization options.',
+          'A note-taking app provides a straightforward, note-centric interface with a focus on searchability and tagging. It’s less customizable but simpler for quick note-taking.',
+          'Collaboration and Sharing',
+          'A word processor supports real-time collaboration with robust version history and commenting features. It’s ideal for teams working on polished documents.',
+          'A block-based editor excels in collaborative workspaces, allowing teams to build shared databases, task boards, and wikis. Its sharing model is highly customizable but can be complex to manage.',
+          'A note-taking app might offer basic sharing for notes but is less focused on real-time collaboration.',
+        ],
+      ],
+      [
+        'Use Case Recommendations',
+        'use-case-recommendations',
+        [
+          'Choose a word processor if you need to create polished, professional documents with precise formatting, such as reports, resumes, or legal documents. It’s the best choice for traditional word processing in corporate or academic settings.',
+          'Choose a block-based editor if you want a flexible, all-in-one tool for managing projects, notes, and databases. It’s perfect for teams or individuals who need a customizable workspace for planning, collaboration, or personal knowledge management.',
+          'Choose a note-taking app if you prioritize quick note-taking and organizing ideas. It’s ideal for users who need a simple, searchable system for personal notes or research.',
+        ],
+      ],
+      [
+        'Conclusion',
+        'conclusion',
+        [
+          'Word processors, block-based editors, and note-taking apps are powerful tools that share overlapping functionality but have distinct needs. A word processor excels in creating formal, print-ready documents; a blocked-base editor shines as a versatile, modular workspace for dynamic projects; and a note-taking app is unmatched for quick, searchable note-taking. Each has its strengths and weaknesses, and the best choice depends on your specific goals—whether it’s producing professional documents, managing complex projects, or capturing fleeting ideas. By understanding their unique features, you can select the tool (or combination of tools) that enhances your productivity and fits your workflow.',
         ],
       ],
     ],

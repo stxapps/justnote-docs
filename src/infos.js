@@ -20,6 +20,7 @@ const _navMenuInfos = [
   cnmi('organize-notes', 'Organize Notes', GRP_FS),
   cnmi('import-export', 'Import & Export', GRP_FS),
   cnmi('note-taking-app-101', 'Note-Taking App', GRP_101),
+  cnmi('text-editor-categories-101', 'Text Editor Categories', GRP_101),
   cnmi('faqs', 'FAQs', GRP_MISC),
 ];
 for (const info of _navMenuInfos) {
